@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-01T11:50:25.130</Modified>
+      <Modified>2018-12-01T16:34:02.962</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.exe">
       <PackagePath>entrypoint\UwpCustomCourses.exe</PackagePath>
-      <Modified>2018-12-01T11:50:21.190</Modified>
+      <Modified>2018-12-01T16:33:58.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rankle\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.dll">
       <PackagePath>UwpCustomCursesLibrary.dll</PackagePath>
-      <Modified>2018-12-01T11:46:33.541</Modified>
+      <Modified>2018-12-01T13:21:48.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -106,27 +106,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.xr.xml">
       <PackagePath>UwpCustomCourses.xr.xml</PackagePath>
-      <Modified>2018-12-01T11:16:12.820</Modified>
+      <Modified>2018-12-01T16:31:01.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-01T11:50:20.447</Modified>
+      <Modified>2018-12-01T16:33:57.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-01T11:50:20.448</Modified>
+      <Modified>2018-12-01T16:33:57.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\LoginNVPage.xbf">
       <PackagePath>View\LoginNVPage.xbf</PackagePath>
-      <Modified>2018-12-01T11:50:20.448</Modified>
+      <Modified>2018-12-01T16:33:57.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\MainNVPage.xbf">
       <PackagePath>View\MainNVPage.xbf</PackagePath>
-      <Modified>2018-12-01T11:50:20.449</Modified>
+      <Modified>2018-12-01T16:33:57.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\SelectedCoursesNVPage.xbf">
       <PackagePath>View\SelectedCoursesNVPage.xbf</PackagePath>
-      <Modified>2018-12-01T11:50:20.450</Modified>
+      <Modified>2018-12-01T16:33:57.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -134,11 +134,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-12-01T10:53:19.473</Modified>
+      <Modified>2018-12-01T13:16:39.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\Core\UwpCustomCourses.exe">
       <PackagePath>UwpCustomCourses.exe</PackagePath>
-      <Modified>2018-12-01T11:50:25.114</Modified>
+      <Modified>2018-12-01T16:34:02.944</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

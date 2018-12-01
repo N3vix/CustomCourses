@@ -8,8 +8,32 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock>Selected Course</TextBlock>
+    <Grid x:ConnectionId='2' Margin="24" Name="Grid">
+        <ContentControl DataContext="{Binding SelectedCourse}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Orientation="Horizontal">
+                        <Button FontFamily="Segoe MDL2 Assets" Content="&#xE72B;" Width="60" Height="60" Background="Transparent" Command="{Binding BackToMainPageCommand, Source={StaticResource Locator}}"/>
+                        <TextBlock Text="{Binding Name}" FontSize="50" FontWeight="Medium" Margin="12,0,0,0"/>
+                    </StackPanel>
+                    <TextBlock Grid.Column="2" Text="{Binding StartTime}"/>
+                </Grid>
+            </Grid>
+        </ContentControl>
     </Grid>
 </Page>
 

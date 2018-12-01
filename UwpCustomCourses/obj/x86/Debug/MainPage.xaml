@@ -18,9 +18,10 @@
                                                         
                         SelectedItem="{Binding SelectedNvItem, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                         IsTabStop="False" 
-                        MenuItemsSource="{Binding MenuItems, Converter={StaticResource INavConverter}}"
+                        IsBackButtonVisible="Collapsed"
+                        MenuItemsSource="{Binding MenuItems, Converter={StaticResource INavConverter}, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                         IsSettingsVisible="True">
-            <Frame Content="{Binding SelectedNvPage, UpdateSourceTrigger=PropertyChanged}" Margin="24"></Frame>
+            <Frame x:ConnectionId='4' Content="{Binding SelectedNvPage, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="24" x:Name="Frame"></Frame>
         </NavigationView>
     </Grid>
 </Page>

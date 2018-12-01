@@ -18,7 +18,7 @@
             <GridView x:ConnectionId='2' x:Name="ListBox"
                       HorizontalAlignment="Center"
                       HorizontalContentAlignment="Stretch" 
-                      SelectedItem="{Binding SelectedCourse}" 
+                      SelectedItem="{Binding SelectedCourse, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
                       ItemsSource="{Binding CoursesCollection}" 
                       ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <GridView.ItemTemplate>

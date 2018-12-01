@@ -126,11 +126,11 @@
     </Compile>
     <Compile Include="Helpers\BoolToVisibilityConverter.cs" />
     <Compile Include="Helpers\INavConverter.cs" />
+    <Compile Include="Helpers\ToastNotifications.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModel\LoginDialogViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="View\LoginNVPage.xaml.cs">
       <DependentUpon>LoginNVPage.xaml</DependentUpon>

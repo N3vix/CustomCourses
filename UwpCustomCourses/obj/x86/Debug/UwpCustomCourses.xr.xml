@@ -17,6 +17,7 @@
     <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="StartTime" />
     <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="BackToMainPageCommand" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -39,13 +40,20 @@
       <RootProperty Name="Width" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ColumnDefinitions" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="Margin" />
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="IsTabStop" />
+      <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="MenuItemsSource" />
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="Content" />
@@ -55,20 +63,20 @@
       <RootProperty Name="UpdateSourceTrigger" />
       <RootProperty Name="Mode" />
       <RootProperty Name="Converter" />
+      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="UwpCustomCourses.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Items" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="SelectedItem" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="VerticalContentAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
@@ -83,7 +91,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="TextTrimming" />
-      <RootProperty Name="Inlines" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Text" />
@@ -95,6 +104,10 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Command" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="UwpCustomCourses.View.LoginNVPage" />
     <RootType FullName="UwpCustomCourses.Helpers.BooleanToVisibilityConverter" />
@@ -104,6 +117,13 @@
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
@@ -111,6 +131,9 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="UwpCustomCourses.View.MainNVPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
     <RootType FullName="UwpCustomCourses.View.SelectedCoursesNVPage" />
   </Roots.RootTypes>
 </Roots>
