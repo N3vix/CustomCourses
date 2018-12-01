@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="UwpCustomCourses.View.MainNVPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpCustomCourses.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:helpers="using:UwpCustomCourses.Helpers"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <helpers:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Page.Resources>
+    
+    <Grid>
+        <ScrollViewer Visibility="{Binding SelectedCourseModeFirst, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <GridView x:Name="ListBox"
+                      HorizontalAlignment="Center"
+                      HorizontalContentAlignment="Stretch" 
+                      SelectedItem="{Binding SelectedCourse}" 
+                      ItemsSource="{Binding CoursesCollection}" 
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Name="Grid" Width="300" MaxHeight="88" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition x:Name="Definition" Height="28"/>
+                                <RowDefinition Height="60"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="{Binding Name}"/>
+                            <TextBlock Grid.Row="0" Text="{Binding StartTime}"
+                                       HorizontalAlignment="Right"/>
+                            <TextBlock Grid.Row="1" Margin="4" Text="{Binding Description}" TextWrapping="Wrap" TextTrimming="WordEllipsis"/>
+                        </Grid>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </ScrollViewer>
+    </Grid>
+</Page>

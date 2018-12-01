@@ -1,0 +1,31 @@
+﻿<Window x:Class="CustomCurses.View.LoginDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:local="clr-namespace:CustomCurses.View"
+        mc:Ignorable="d"
+        DataContext="{StaticResource LoginDialog}"
+        Title="LoginDialog" Height="180" Width="400">
+    <i:Interaction.Behaviors>
+        <local:CloseWindowBehavior CloseTrigger="{Binding CloseTrigger}" />
+    </i:Interaction.Behaviors>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+            <Label>Username</Label>
+            <TextBox Name="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="220" TextWrapping="Wrap" Text="{Binding Username}"/>
+            <Label>Password</Label>
+            <PasswordBox Name="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Width="220" PasswordChar="*"/>
+        </StackPanel>
+        <StackPanel Margin="10" Grid.Row="1" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Name="Login" Width="100" Height="24" Margin="0,0,4,0" 
+                    Command="{Binding LoginCommand}" CommandParameter="{Binding ElementName=Password}">Login</Button>
+            <Button Name="Cancel" Width="100" Height="24" Command="{Binding CancelCommand}">Cancel</Button>
+        </StackPanel>
+    </Grid>
+</Window>

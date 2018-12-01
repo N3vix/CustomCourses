@@ -1,0 +1,2 @@
+D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\UwpCustomCourses.csproj;x64
+D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCursesLibrary\UwpCustomCursesLibrary.csproj;x64
