@@ -11740,11 +11740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\DbWebApi\\DbWebApi.csproj",
+      "projectUniqueName": "D:\\GitHub Repository\\CustomCourses\\DbWebApi\\DbWebApi.csproj",
       "projectName": "DbWebApi",
-      "projectPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\DbWebApi\\DbWebApi.csproj",
+      "projectPath": "D:\\GitHub Repository\\CustomCourses\\DbWebApi\\DbWebApi.csproj",
       "packagesPath": "C:\\Users\\Rankle\\.nuget\\packages\\",
-      "outputPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\DbWebApi\\obj\\",
+      "outputPath": "D:\\GitHub Repository\\CustomCourses\\DbWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11764,8 +11764,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\CustomCursesLibrary\\CustomCursesLibrary.csproj": {
-              "projectPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\CustomCursesLibrary\\CustomCursesLibrary.csproj"
+            "D:\\GitHub Repository\\CustomCourses\\CustomCursesLibrary\\CustomCursesLibrary.csproj": {
+              "projectPath": "D:\\GitHub Repository\\CustomCourses\\CustomCursesLibrary\\CustomCursesLibrary.csproj"
             }
           }
         }

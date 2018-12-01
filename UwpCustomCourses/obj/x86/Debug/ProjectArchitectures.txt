@@ -1,2 +1,2 @@
-D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\UwpCustomCourses.csproj;x86
-D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCursesLibrary\UwpCustomCursesLibrary.csproj;neutral
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\UwpCustomCourses.csproj;x86
+D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\UwpCustomCursesLibrary.csproj;neutral

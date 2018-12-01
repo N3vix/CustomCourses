@@ -30503,11 +30503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj",
+      "projectUniqueName": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj",
       "projectName": "UwpCustomCursesLibrary",
-      "projectPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj",
+      "projectPath": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj",
       "packagesPath": "C:\\Users\\Rankle\\.nuget\\packages\\",
-      "outputPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCursesLibrary\\obj\\",
+      "outputPath": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCursesLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

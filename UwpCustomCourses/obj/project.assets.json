@@ -8687,11 +8687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCourses\\UwpCustomCourses.csproj",
+      "projectUniqueName": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCourses\\UwpCustomCourses.csproj",
       "projectName": "UwpCustomCourses",
-      "projectPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCourses\\UwpCustomCourses.csproj",
+      "projectPath": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCourses\\UwpCustomCourses.csproj",
       "packagesPath": "C:\\Users\\Rankle\\.nuget\\packages\\",
-      "outputPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCourses\\obj\\",
+      "outputPath": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCourses\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8712,8 +8712,8 @@
       "frameworks": {
         "uap10.0.17134": {
           "projectReferences": {
-            "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj": {
-              "projectPath": "D:\\dekstop\\Diploma\\DB Web Api\\DbWebApi\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj"
+            "D:\\GitHub Repository\\CustomCourses\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj": {
+              "projectPath": "D:\\GitHub Repository\\CustomCourses\\UwpCustomCursesLibrary\\UwpCustomCursesLibrary.csproj"
             }
           }
         }

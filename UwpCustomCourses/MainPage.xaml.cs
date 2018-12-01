@@ -27,5 +27,12 @@ namespace UwpCustomCourses
         {
             this.InitializeComponent();
         }
+
+        private void NavigationView_OnLoaded(object sender, RoutedEventArgs e)
+        {
+            var NV = (NavigationView)sender;
+            if (NV.SelectedItem == null)
+                NV.SelectedItem = (NV.MenuItemsSource as List<object>)[0];
+        }
     }
 }

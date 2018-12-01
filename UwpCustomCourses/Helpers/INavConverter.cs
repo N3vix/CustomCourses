@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using UwpCustomCursesLibrary.Models;
 
@@ -34,6 +35,15 @@ namespace UwpCustomCourses.Helpers
             switch (item.ItemType)
             {
                 case NVItemEnum.NVItemItem:
+                    if (item.Text == "Home")
+                    {
+                        return new NavigationViewItem
+                        {
+                            Content = item.Text,
+                            Icon = ToFontIcon(item.Icon),
+                            IsSelected = true,
+                        };
+                    }
                     return new NavigationViewItem
                     {
                         Content = item.Text,
@@ -51,9 +61,9 @@ namespace UwpCustomCourses.Helpers
 
         }
 
-        FontIcon ToFontIcon(string glyph)
+        SymbolIcon ToFontIcon(Symbol glyph)
         {
-            return new FontIcon {Glyph = glyph,};
+            return new SymbolIcon { Symbol = glyph };
         }
     }
 }

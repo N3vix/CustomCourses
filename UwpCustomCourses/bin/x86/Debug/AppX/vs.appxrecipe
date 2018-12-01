@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>44210572-f679-4825-b16a-7cdad5f373ac</PackageIdentityName>
     <PackageIdentityPublisher>CN=Rankle</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BAE5663DBE05AF9F849793F2C08235443809CB5D5EF03C8B3A0B184055DC0F96</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>8BE5C5BFBEDF984BC60041B1837DCF9693D1BB10DE4BED1D5DE54282906E4CE7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>44210572-f679-4825-b16a-7cdad5f373ac_1.0.0.0_x86__09zmkqqr2ekaw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>44210572-f679-4825-b16a-7cdad5f373ac_09zmkqqr2ekaw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>44210572-f679-4825-b16a-7cdad5f373ac</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-27T20:44:35.659</Modified>
+      <Modified>2018-12-01T11:50:25.130</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.exe">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.exe">
       <PackagePath>entrypoint\UwpCustomCourses.exe</PackagePath>
-      <Modified>2018-11-27T20:44:34.758</Modified>
+      <Modified>2018-12-01T11:50:21.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rankle\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -62,79 +62,83 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2018-10-31T09:00:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.dll">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.dll">
       <PackagePath>UwpCustomCursesLibrary.dll</PackagePath>
-      <Modified>2018-11-27T20:32:11.113</Modified>
+      <Modified>2018-12-01T11:46:33.541</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-26T16:55:50.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-22T20:02:27.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.xr.xml">
       <PackagePath>UwpCustomCourses.xr.xml</PackagePath>
-      <Modified>2018-11-27T20:44:34.561</Modified>
+      <Modified>2018-12-01T11:16:12.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-27T20:44:34.578</Modified>
+      <Modified>2018-12-01T11:50:20.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-27T20:44:34.578</Modified>
+      <Modified>2018-12-01T11:50:20.448</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\View\MainNVPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\LoginNVPage.xbf">
+      <PackagePath>View\LoginNVPage.xbf</PackagePath>
+      <Modified>2018-12-01T11:50:20.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\MainNVPage.xbf">
       <PackagePath>View\MainNVPage.xbf</PackagePath>
-      <Modified>2018-11-27T20:44:34.578</Modified>
+      <Modified>2018-12-01T11:50:20.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\View\SelectedCoursesNVPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\SelectedCoursesNVPage.xbf">
       <PackagePath>View\SelectedCoursesNVPage.xbf</PackagePath>
-      <Modified>2018-11-27T20:44:34.578</Modified>
+      <Modified>2018-12-01T11:50:20.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T19:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-11-27T20:32:20.517</Modified>
+      <Modified>2018-12-01T10:53:19.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCourses\bin\x86\Debug\Core\UwpCustomCourses.exe">
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\Core\UwpCustomCourses.exe">
       <PackagePath>UwpCustomCourses.exe</PackagePath>
-      <Modified>2018-11-27T20:44:35.652</Modified>
+      <Modified>2018-12-01T11:50:25.114</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

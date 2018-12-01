@@ -9,17 +9,6 @@ namespace UwpCustomCourses.ViewModel
 {
     class LoginDialogViewModel : ViewModelBase
     {
-        private bool _closeTrigger;
-        public bool CloseTrigger
-        {
-            get => _closeTrigger;
-            set
-            {
-                _closeTrigger = value;
-                RaisePropertyChanged(nameof(CloseTrigger));
-            }
-        }
-
         private string _username;
         public string Username
         {
@@ -71,12 +60,10 @@ namespace UwpCustomCourses.ViewModel
             if (user == null ||
                 !PasswordHashHelpers.VerifyPasswordHash(Password, user.PasswordHash, user.PasswordSalt)) return;
             AuthorisedUser = user;
-            CloseTrigger = true;
         }
 
         private void CancelCommandExecute()
         {
-            CloseTrigger = true;
         }
     }
 }

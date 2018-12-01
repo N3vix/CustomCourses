@@ -13,15 +13,14 @@
         <helpers:INavConverter x:Name="INavConverter"/>
     </Page.Resources>
     <Grid>
-
-        <!--<Button Grid.Row="0" HorizontalAlignment="Right" Width="100" Height="24" Margin="4" Command="{Binding OpenLoginDialogCommand}"></Button>-->
-        <NavigationView x:Name="MainNV"
+        <NavigationView x:Name="NavigationView"
                         Margin="0,0,0,0"
-                        SelectedItem="{Binding SelectedNvPage1, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        Loaded="NavigationView_OnLoaded"
+                        SelectedItem="{Binding SelectedNvItem, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                         IsTabStop="False" 
                         MenuItemsSource="{Binding MenuItems, Converter={StaticResource INavConverter}}"
                         IsSettingsVisible="True">
-            <Frame Content="{Binding SelectedNvPage}" x:Name="MainNV_Frame" Margin="24"></Frame>
+            <Frame Content="{Binding SelectedNvPage, UpdateSourceTrigger=PropertyChanged}" Margin="24"></Frame>
         </NavigationView>
     </Grid>
 </Page>

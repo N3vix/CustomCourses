@@ -25,58 +25,55 @@ namespace UwpCustomCourses.ViewModel
             }
         }
 
-        private bool _selectedCourseMode = true;
-        public bool SelectedCourseModeFirst
-        {
-            get => _selectedCourseMode;
-            set
-            {
-                _selectedCourseMode = value;
-                RaisePropertyChanged(nameof(SelectedCourseModeFirst));
-            }
-        }
+        public List<object> PreviousMenuItems = new List<object>();
+        public List<Page> PreviousPages = new List<Page>();
 
-        private Page _selectedNvPage = new MainNVPage();
+        private Page _selectedNvPage;
         public Page SelectedNvPage
         {
             get => _selectedNvPage;
             set
             {
+                if(_selectedNvPage != null) PreviousPages.Add(_selectedNvPage);
                 _selectedNvPage = value;
                 RaisePropertyChanged(nameof(SelectedNvPage));
             }
         }
 
         private object _selectedNvItem;
-        public object SelectedNvPage1
+        public object SelectedNvItem
         {
             get => _selectedNvItem;
             set
             {
+                if (_selectedNvItem != null) PreviousMenuItems.Add(_selectedNvItem);
                 _selectedNvItem = value;
-                RaisePropertyChanged(nameof(SelectedNvPage1));
+                SelectedNvPage = MenuItemToPage(value as NavigationViewItem);
+                RaisePropertyChanged(nameof(SelectedNvItem));
             }
         }
 
-        public ObservableCollection<NVItem> MenuItems => new ObservableCollection<NVItem>()
+        public ObservableCollection<NVItem> MenuItems => new ObservableCollection<NVItem>
         {
-            new NVItem() { Text = "Home", Icon = "", ItemType = NVItemEnum.NVItemItem},
-            new NVItem() { Text = "Ho1me", Icon = "" , ItemType = NVItemEnum.NVItemItem},
-            new NVItem() { Text = "Ho121me", Icon = "" , ItemType = NVItemEnum.NVItemItem},
-            new NVItem() { Text = "Ho121me", Icon = "" , ItemType = NVItemEnum.NVItemSeparator},
-            new NVItem() { Text = "Ho121me", Icon = "" , ItemType = NVItemEnum.NVItemHeader},
-            new NVItem() { Text = "Ho121me", Icon = "" , ItemType = NVItemEnum.NVItemItem},
+            new NVItem() { Text = "Home", Icon = Symbol.Home, ItemType = NVItemEnum.NVItemItem},
+            new NVItem() { Text = "", ItemType = NVItemEnum.NVItemSeparator},
+            new NVItem() { Text = "Account", ItemType = NVItemEnum.NVItemHeader},
+            new NVItem() { Text = "Login", Icon = Symbol.Contact , ItemType = NVItemEnum.NVItemItem},
         };
-
-        public bool SelectedCourseModeSecond => !_selectedCourseMode;
-
-        public RelayCommand OpenLoginDialogCommand { get; }
-        public RelayCommand OpenSelectedCourseCommand { get; }
+        private Page MenuItemToPage(NavigationViewItem item)
+        {
+            switch (item.Content)
+            {
+                case "Home":
+                    return new MainNVPage();
+                case "Login":
+                    return new LoginNVPage();
+            }
+            return null;
+        }
 
         public MainViewModel()
         {
-            OpenLoginDialogCommand = new RelayCommand(OpenLoginDialogCommandExecute);
-            OpenSelectedCourseCommand = new RelayCommand(OpenSelectedCourseCommandExecute);
             _coursesCollection = new ObservableCollection<Course>()
             {
                 new Course()
@@ -140,21 +137,6 @@ namespace UwpCustomCourses.ViewModel
                     StartTime = DateTime.Now
                 },
             };
-        }
-
-        private void OpenLoginDialogCommandExecute()
-        {
-            //var dialog = new LoginDialog()
-            //{
-            //    DataContext = new LoginDialogViewModel()
-            //};
-            //var result = dialog.ShowDialog();
-            //if (!result.HasValue || !result.Value) return;
-        }
-
-        private void OpenSelectedCourseCommandExecute()
-        {
-            SelectedCourseModeFirst = !_selectedCourseMode;
         }
     }
 }
