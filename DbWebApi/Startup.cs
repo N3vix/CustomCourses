@@ -28,6 +28,7 @@ namespace DbWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<UsersContext>(x => x.UseInMemoryDatabase("UsersList"));
+            services.AddDbContext<CoursesContext>(x => x.UseInMemoryDatabase("CoursesList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

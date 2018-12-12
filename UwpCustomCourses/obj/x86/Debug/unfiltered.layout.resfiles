@@ -11,5 +11,6 @@ MainPage.xbf
 UwpCustomCourses.xr.xml
 View\LoginNVPage.xbf
 View\MainNVPage.xbf
+View\RegistrationNVPage.xbf
 View\SelectedCoursesNVPage.xbf
 Properties\Default.rd.xml

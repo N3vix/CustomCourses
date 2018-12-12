@@ -189,7 +189,7 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[25];
+            _typeNameTable = new string[26];
             _typeNameTable[0] = "UwpCustomCourses.ViewModel.MainViewModel";
             _typeNameTable[1] = "GalaSoft.MvvmLight.ViewModelBase";
             _typeNameTable[2] = "GalaSoft.MvvmLight.ObservableObject";
@@ -214,9 +214,10 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
             _typeNameTable[21] = "UwpCustomCourses.View.LoginNVPage";
             _typeNameTable[22] = "UwpCustomCourses.Helpers.BooleanToVisibilityConverter";
             _typeNameTable[23] = "UwpCustomCourses.View.MainNVPage";
-            _typeNameTable[24] = "UwpCustomCourses.View.SelectedCoursesNVPage";
+            _typeNameTable[24] = "UwpCustomCourses.View.RegistrationNVPage";
+            _typeNameTable[25] = "UwpCustomCourses.View.SelectedCoursesNVPage";
 
-            _typeTable = new global::System.Type[25];
+            _typeTable = new global::System.Type[26];
             _typeTable[0] = typeof(global::UwpCustomCourses.ViewModel.MainViewModel);
             _typeTable[1] = typeof(global::GalaSoft.MvvmLight.ViewModelBase);
             _typeTable[2] = typeof(global::GalaSoft.MvvmLight.ObservableObject);
@@ -241,7 +242,8 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
             _typeTable[21] = typeof(global::UwpCustomCourses.View.LoginNVPage);
             _typeTable[22] = typeof(global::UwpCustomCourses.Helpers.BooleanToVisibilityConverter);
             _typeTable[23] = typeof(global::UwpCustomCourses.View.MainNVPage);
-            _typeTable[24] = typeof(global::UwpCustomCourses.View.SelectedCoursesNVPage);
+            _typeTable[24] = typeof(global::UwpCustomCourses.View.RegistrationNVPage);
+            _typeTable[25] = typeof(global::UwpCustomCourses.View.SelectedCoursesNVPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -288,7 +290,8 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
         private object Activate_21_LoginNVPage() { return new global::UwpCustomCourses.View.LoginNVPage(); }
         private object Activate_22_BooleanToVisibilityConverter() { return new global::UwpCustomCourses.Helpers.BooleanToVisibilityConverter(); }
         private object Activate_23_MainNVPage() { return new global::UwpCustomCourses.View.MainNVPage(); }
-        private object Activate_24_SelectedCoursesNVPage() { return new global::UwpCustomCourses.View.SelectedCoursesNVPage(); }
+        private object Activate_24_RegistrationNVPage() { return new global::UwpCustomCourses.View.RegistrationNVPage(); }
+        private object Activate_25_SelectedCoursesNVPage() { return new global::UwpCustomCourses.View.SelectedCoursesNVPage(); }
         private void VectorAdd_7_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::UwpCustomCursesLibrary.Models.NVItem>)instance;
@@ -466,9 +469,16 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 24:   //  UwpCustomCourses.View.SelectedCoursesNVPage
+            case 24:   //  UwpCustomCourses.View.RegistrationNVPage
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_24_SelectedCoursesNVPage;
+                userType.Activator = Activate_24_RegistrationNVPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  UwpCustomCourses.View.SelectedCoursesNVPage
+                userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_25_SelectedCoursesNVPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

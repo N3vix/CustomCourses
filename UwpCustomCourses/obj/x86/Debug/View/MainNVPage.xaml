@@ -15,7 +15,7 @@
     
     <Grid>
         <ScrollViewer Visibility="{Binding SelectedCourseModeFirst, Converter={StaticResource BooleanToVisibilityConverter}}">
-            <GridView x:ConnectionId='2' x:Name="ListBox"
+            <GridView
                       HorizontalAlignment="Center"
                       HorizontalContentAlignment="Stretch" 
                       SelectedItem="{Binding SelectedCourse, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
@@ -23,15 +23,16 @@
                       ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <GridView.ItemTemplate>
                     <DataTemplate>
-                        <Grid Name="Grid" Width="300" MaxHeight="88" >
+                        <Grid Width="500" Height="200" >
                             <Grid.RowDefinitions>
-                                <RowDefinition x:Name="Definition" Height="28"/>
-                                <RowDefinition Height="60"/>
+                                <RowDefinition x:Name="Definition" Height="44"/>
+                                <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Grid.Row="0" Text="{Binding Name}"/>
-                            <TextBlock Grid.Row="0" Text="{Binding StartTime}"
+                            <TextBlock Grid.Row="0" Margin="12,12,0,0" Text="{Binding Name}" FontSize="24"/>
+                            <TextBlock Grid.Row="1" Margin="12,12,12,42" FontSize="18" Text="{Binding Description}" TextWrapping="Wrap" TextTrimming="WordEllipsis"/>
+                            <TextBlock Grid.Row="1" Margin="12" FontSize="16" Text="{Binding StartTime}"
+                                       VerticalAlignment="Bottom"
                                        HorizontalAlignment="Right"/>
-                            <TextBlock Grid.Row="1" Margin="4" Text="{Binding Description}" TextWrapping="Wrap" TextTrimming="WordEllipsis"/>
                         </Grid>
                     </DataTemplate>
                 </GridView.ItemTemplate>

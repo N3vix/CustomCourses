@@ -94,6 +94,9 @@
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\MainNVPage.xbf">
       <PackagePath>View\MainNVPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\RegistrationNVPage.xbf">
+      <PackagePath>View\RegistrationNVPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\SelectedCoursesNVPage.xbf">
       <PackagePath>View\SelectedCoursesNVPage.xbf</PackagePath>
     </AppxPackagedFile>

@@ -17,7 +17,7 @@
                         Margin="0,0,0,0"
                                                         
                         SelectedItem="{Binding SelectedNvItem, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
-                        IsTabStop="False" 
+                        IsTabStop="False"
                         IsBackButtonVisible="Collapsed"
                         MenuItemsSource="{Binding MenuItems, Converter={StaticResource INavConverter}, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                         IsSettingsVisible="True">

@@ -15,3 +15,20 @@ D:\dekstop\Diploma\DB Web Api\DbWebApi\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi
 D:\dekstop\Diploma\DB Web Api\DbWebApi\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.csproj.CopyComplete
 D:\dekstop\Diploma\DB Web Api\DbWebApi\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.dll
 D:\dekstop\Diploma\DB Web Api\DbWebApi\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.pdb
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.dll
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.pdb
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.csprojAssemblyReference.cache
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.RazorAssemblyInfo.cache
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.RazorAssemblyInfo.cs
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.AssemblyInfoInputs.cache
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.AssemblyInfo.cs
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\DbWebApi.deps.json
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\DbWebApi.runtimeconfig.json
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\DbWebApi.runtimeconfig.dev.json
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\DbWebApi.dll
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\DbWebApi.pdb
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\CustomCursesLibrary.dll
+D:\GitHub Repository\CustomCourses\DbWebApi\bin\Debug\netcoreapp2.1\CustomCursesLibrary.pdb
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.RazorTargetAssemblyInfo.cache
+D:\GitHub Repository\CustomCourses\DbWebApi\obj\Debug\netcoreapp2.1\DbWebApi.csproj.CopyComplete

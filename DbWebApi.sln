@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbWebApi", "DbWebApi\DbWebApi.csproj", "{DCE15AB8-3DE3-483A-8F48-B1AD5866B683}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A452FF17-4A17-4EA4-B75A-6DD5AEAA8AB4} = {A452FF17-4A17-4EA4-B75A-6DD5AEAA8AB4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCurses", "CustomCurses\CustomCurses.csproj", "{65011BE0-2939-4AB6-B69B-0D3400E9AC94}"
 EndProject

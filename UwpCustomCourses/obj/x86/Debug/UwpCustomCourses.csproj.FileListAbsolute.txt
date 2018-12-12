@@ -133,3 +133,8 @@ D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\qualifiers.txt
 D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\GalaSoft.MvvmLight.Platform.pri.xml
 D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\ProjectArchitectures.txt
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\RegistrationNVPage.xbf
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.g.i.cs
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.g.cs
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.xaml
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.xbf

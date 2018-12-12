@@ -138,6 +138,9 @@
     <Compile Include="View\MainNVPage.xaml.cs">
       <DependentUpon>MainNVPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\RegistrationNVPage.xaml.cs">
+      <DependentUpon>RegistrationNVPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\SelectedCoursesNVPage.xaml.cs">
       <DependentUpon>SelectedCoursesNVPage.xaml</DependentUpon>
     </Compile>
@@ -172,6 +175,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\MainNVPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RegistrationNVPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
