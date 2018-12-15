@@ -138,3 +138,8 @@ D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\Registrat
 D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.g.cs
 D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.xaml
 D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\RegistrationNVPage.xbf
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\LoggedNVPage.xbf
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\LoggedNVPage.g.i.cs
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\LoggedNVPage.g.cs
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\LoggedNVPage.xaml
+D:\GitHub Repository\CustomCourses\UwpCustomCourses\obj\x86\Debug\View\LoggedNVPage.xbf

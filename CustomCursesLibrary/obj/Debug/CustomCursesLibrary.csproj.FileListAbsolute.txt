@@ -202,7 +202,6 @@ D:\GitHub Repository\CustomCourses\CustomCursesLibrary\bin\Debug\System.Xml.XPat
 D:\GitHub Repository\CustomCourses\CustomCursesLibrary\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\GitHub Repository\CustomCourses\CustomCursesLibrary\bin\Debug\Newtonsoft.Json.dll
 D:\GitHub Repository\CustomCourses\CustomCursesLibrary\bin\Debug\Newtonsoft.Json.xml
-D:\GitHub Repository\CustomCourses\CustomCursesLibrary\obj\Debug\CustomCursesLibrary.csprojAssemblyReference.cache
 D:\GitHub Repository\CustomCourses\CustomCursesLibrary\obj\Debug\CustomCursesLibrary.Properties.Resources.resources
 D:\GitHub Repository\CustomCourses\CustomCursesLibrary\obj\Debug\CustomCursesLibrary.csproj.GenerateResource.cache
 D:\GitHub Repository\CustomCourses\CustomCursesLibrary\obj\Debug\CustomCursesLibrary.csproj.CoreCompileInputs.cache

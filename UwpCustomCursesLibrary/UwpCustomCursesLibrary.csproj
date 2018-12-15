@@ -127,7 +127,9 @@
     <Compile Include="Models\NVItem.cs" />
     <Compile Include="Models\NVItemEnum.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserCoursesPoints.cs" />
     <Compile Include="Models\UserDto.cs" />
+    <Compile Include="Models\UsersPoints.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\UwpCustomCursesLibrary.rd.xml" />
   </ItemGroup>
@@ -138,6 +140,11 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>11.0.2</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.ServicePoint">
+      <HintPath>C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.2\ref\uap10.0.15138\System.Net.ServicePoint.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

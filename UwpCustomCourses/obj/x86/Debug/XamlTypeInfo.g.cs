@@ -189,7 +189,7 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[26];
+            _typeNameTable = new string[30];
             _typeNameTable[0] = "UwpCustomCourses.ViewModel.MainViewModel";
             _typeNameTable[1] = "GalaSoft.MvvmLight.ViewModelBase";
             _typeNameTable[2] = "GalaSoft.MvvmLight.ObservableObject";
@@ -206,18 +206,22 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
             _typeNameTable[13] = "System.Enum";
             _typeNameTable[14] = "System.ValueType";
             _typeNameTable[15] = "UwpCustomCursesLibrary.Models.User";
-            _typeNameTable[16] = "GalaSoft.MvvmLight.Command.RelayCommand";
-            _typeNameTable[17] = "Boolean";
-            _typeNameTable[18] = "UwpCustomCourses.Helpers.INavConverter";
-            _typeNameTable[19] = "UwpCustomCourses.MainPage";
-            _typeNameTable[20] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[21] = "UwpCustomCourses.View.LoginNVPage";
-            _typeNameTable[22] = "UwpCustomCourses.Helpers.BooleanToVisibilityConverter";
-            _typeNameTable[23] = "UwpCustomCourses.View.MainNVPage";
-            _typeNameTable[24] = "UwpCustomCourses.View.RegistrationNVPage";
-            _typeNameTable[25] = "UwpCustomCourses.View.SelectedCoursesNVPage";
+            _typeNameTable[16] = "System.Collections.Generic.List`1<UwpCustomCursesLibrary.Models.UserCoursesPoints>";
+            _typeNameTable[17] = "UwpCustomCursesLibrary.Models.UserCoursesPoints";
+            _typeNameTable[18] = "Int32";
+            _typeNameTable[19] = "GalaSoft.MvvmLight.Command.RelayCommand";
+            _typeNameTable[20] = "Boolean";
+            _typeNameTable[21] = "UwpCustomCourses.Helpers.INavConverter";
+            _typeNameTable[22] = "UwpCustomCourses.MainPage";
+            _typeNameTable[23] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[24] = "UwpCustomCourses.View.LoggedNVPage";
+            _typeNameTable[25] = "UwpCustomCourses.View.LoginNVPage";
+            _typeNameTable[26] = "UwpCustomCourses.Helpers.BooleanToVisibilityConverter";
+            _typeNameTable[27] = "UwpCustomCourses.View.MainNVPage";
+            _typeNameTable[28] = "UwpCustomCourses.View.RegistrationNVPage";
+            _typeNameTable[29] = "UwpCustomCourses.View.SelectedCoursesNVPage";
 
-            _typeTable = new global::System.Type[26];
+            _typeTable = new global::System.Type[30];
             _typeTable[0] = typeof(global::UwpCustomCourses.ViewModel.MainViewModel);
             _typeTable[1] = typeof(global::GalaSoft.MvvmLight.ViewModelBase);
             _typeTable[2] = typeof(global::GalaSoft.MvvmLight.ObservableObject);
@@ -234,16 +238,20 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
             _typeTable[13] = typeof(global::System.Enum);
             _typeTable[14] = typeof(global::System.ValueType);
             _typeTable[15] = typeof(global::UwpCustomCursesLibrary.Models.User);
-            _typeTable[16] = typeof(global::GalaSoft.MvvmLight.Command.RelayCommand);
-            _typeTable[17] = typeof(global::System.Boolean);
-            _typeTable[18] = typeof(global::UwpCustomCourses.Helpers.INavConverter);
-            _typeTable[19] = typeof(global::UwpCustomCourses.MainPage);
-            _typeTable[20] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[21] = typeof(global::UwpCustomCourses.View.LoginNVPage);
-            _typeTable[22] = typeof(global::UwpCustomCourses.Helpers.BooleanToVisibilityConverter);
-            _typeTable[23] = typeof(global::UwpCustomCourses.View.MainNVPage);
-            _typeTable[24] = typeof(global::UwpCustomCourses.View.RegistrationNVPage);
-            _typeTable[25] = typeof(global::UwpCustomCourses.View.SelectedCoursesNVPage);
+            _typeTable[16] = typeof(global::System.Collections.Generic.List<global::UwpCustomCursesLibrary.Models.UserCoursesPoints>);
+            _typeTable[17] = typeof(global::UwpCustomCursesLibrary.Models.UserCoursesPoints);
+            _typeTable[18] = typeof(global::System.Int32);
+            _typeTable[19] = typeof(global::GalaSoft.MvvmLight.Command.RelayCommand);
+            _typeTable[20] = typeof(global::System.Boolean);
+            _typeTable[21] = typeof(global::UwpCustomCourses.Helpers.INavConverter);
+            _typeTable[22] = typeof(global::UwpCustomCourses.MainPage);
+            _typeTable[23] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[24] = typeof(global::UwpCustomCourses.View.LoggedNVPage);
+            _typeTable[25] = typeof(global::UwpCustomCourses.View.LoginNVPage);
+            _typeTable[26] = typeof(global::UwpCustomCourses.Helpers.BooleanToVisibilityConverter);
+            _typeTable[27] = typeof(global::UwpCustomCourses.View.MainNVPage);
+            _typeTable[28] = typeof(global::UwpCustomCourses.View.RegistrationNVPage);
+            _typeTable[29] = typeof(global::UwpCustomCourses.View.SelectedCoursesNVPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -285,13 +293,16 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
         private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::UwpCustomCursesLibrary.Models.NVItem>(); }
         private object Activate_9_NVItem() { return new global::UwpCustomCursesLibrary.Models.NVItem(); }
         private object Activate_15_User() { return new global::UwpCustomCursesLibrary.Models.User(); }
-        private object Activate_18_INavConverter() { return new global::UwpCustomCourses.Helpers.INavConverter(); }
-        private object Activate_19_MainPage() { return new global::UwpCustomCourses.MainPage(); }
-        private object Activate_21_LoginNVPage() { return new global::UwpCustomCourses.View.LoginNVPage(); }
-        private object Activate_22_BooleanToVisibilityConverter() { return new global::UwpCustomCourses.Helpers.BooleanToVisibilityConverter(); }
-        private object Activate_23_MainNVPage() { return new global::UwpCustomCourses.View.MainNVPage(); }
-        private object Activate_24_RegistrationNVPage() { return new global::UwpCustomCourses.View.RegistrationNVPage(); }
-        private object Activate_25_SelectedCoursesNVPage() { return new global::UwpCustomCourses.View.SelectedCoursesNVPage(); }
+        private object Activate_16_List() { return new global::System.Collections.Generic.List<global::UwpCustomCursesLibrary.Models.UserCoursesPoints>(); }
+        private object Activate_17_UserCoursesPoints() { return new global::UwpCustomCursesLibrary.Models.UserCoursesPoints(); }
+        private object Activate_21_INavConverter() { return new global::UwpCustomCourses.Helpers.INavConverter(); }
+        private object Activate_22_MainPage() { return new global::UwpCustomCourses.MainPage(); }
+        private object Activate_24_LoggedNVPage() { return new global::UwpCustomCourses.View.LoggedNVPage(); }
+        private object Activate_25_LoginNVPage() { return new global::UwpCustomCourses.View.LoginNVPage(); }
+        private object Activate_26_BooleanToVisibilityConverter() { return new global::UwpCustomCourses.Helpers.BooleanToVisibilityConverter(); }
+        private object Activate_27_MainNVPage() { return new global::UwpCustomCourses.View.MainNVPage(); }
+        private object Activate_28_RegistrationNVPage() { return new global::UwpCustomCourses.View.RegistrationNVPage(); }
+        private object Activate_29_SelectedCoursesNVPage() { return new global::UwpCustomCourses.View.SelectedCoursesNVPage(); }
         private void VectorAdd_7_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::UwpCustomCursesLibrary.Models.NVItem>)instance;
@@ -302,6 +313,12 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
         {
             var collection = (global::System.Collections.Generic.ICollection<global::UwpCustomCursesLibrary.Models.NVItem>)instance;
             var newItem = (global::UwpCustomCursesLibrary.Models.NVItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_16_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::UwpCustomCursesLibrary.Models.UserCoursesPoints>)instance;
+            var newItem = (global::UwpCustomCursesLibrary.Models.UserCoursesPoints)item;
             collection.Add(newItem);
         }
 
@@ -326,6 +343,7 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
                 userType.AddMemberName("NickName");
                 userType.AddMemberName("Password");
                 userType.AddMemberName("AuthorisedUser");
+                userType.AddMemberName("SubscribeCourses");
                 userType.AddMemberName("LoginCommand");
                 userType.AddMemberName("RegistrationCommand");
                 userType.AddMemberName("BackToMainPageCommand");
@@ -420,65 +438,91 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 16:   //  GalaSoft.MvvmLight.Command.RelayCommand
+            case 16:   //  System.Collections.Generic.List`1<UwpCustomCursesLibrary.Models.UserCoursesPoints>
+                userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_16_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 17:   //  UwpCustomCursesLibrary.Models.UserCoursesPoints
+                userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_17_UserCoursesPoints;
+                userType.AddMemberName("CourseName");
+                userType.AddMemberName("Points");
+                xamlType = userType;
+                break;
+
+            case 18:   //  Int32
+                xamlType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 19:   //  GalaSoft.MvvmLight.Command.RelayCommand
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  Boolean
+            case 20:   //  Boolean
                 xamlType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  UwpCustomCourses.Helpers.INavConverter
+            case 21:   //  UwpCustomCourses.Helpers.INavConverter
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_18_INavConverter;
+                userType.Activator = Activate_21_INavConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 19:   //  UwpCustomCourses.MainPage
+            case 22:   //  UwpCustomCourses.MainPage
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_MainPage;
+                userType.Activator = Activate_22_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 20:   //  Windows.UI.Xaml.Controls.UserControl
+            case 23:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  UwpCustomCourses.View.LoginNVPage
+            case 24:   //  UwpCustomCourses.View.LoggedNVPage
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_LoginNVPage;
+                userType.Activator = Activate_24_LoggedNVPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  UwpCustomCourses.Helpers.BooleanToVisibilityConverter
+            case 25:   //  UwpCustomCourses.View.LoginNVPage
+                userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_25_LoginNVPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  UwpCustomCourses.Helpers.BooleanToVisibilityConverter
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_22_BooleanToVisibilityConverter;
+                userType.Activator = Activate_26_BooleanToVisibilityConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 23:   //  UwpCustomCourses.View.MainNVPage
+            case 27:   //  UwpCustomCourses.View.MainNVPage
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_23_MainNVPage;
+                userType.Activator = Activate_27_MainNVPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 24:   //  UwpCustomCourses.View.RegistrationNVPage
+            case 28:   //  UwpCustomCourses.View.RegistrationNVPage
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_24_RegistrationNVPage;
+                userType.Activator = Activate_28_RegistrationNVPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 25:   //  UwpCustomCourses.View.SelectedCoursesNVPage
+            case 29:   //  UwpCustomCourses.View.SelectedCoursesNVPage
                 userType = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_25_SelectedCoursesNVPage;
+                userType.Activator = Activate_29_SelectedCoursesNVPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -587,22 +631,47 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
             var that = (global::UwpCustomCourses.ViewModel.MainViewModel)instance;
             that.AuthorisedUser = (global::UwpCustomCursesLibrary.Models.User)Value;
         }
-        private object get_11_MainViewModel_LoginCommand(object instance)
+        private object get_11_MainViewModel_SubscribeCourses(object instance)
+        {
+            var that = (global::UwpCustomCourses.ViewModel.MainViewModel)instance;
+            return that.SubscribeCourses;
+        }
+        private object get_12_UserCoursesPoints_CourseName(object instance)
+        {
+            var that = (global::UwpCustomCursesLibrary.Models.UserCoursesPoints)instance;
+            return that.CourseName;
+        }
+        private void set_12_UserCoursesPoints_CourseName(object instance, object Value)
+        {
+            var that = (global::UwpCustomCursesLibrary.Models.UserCoursesPoints)instance;
+            that.CourseName = (global::System.String)Value;
+        }
+        private object get_13_UserCoursesPoints_Points(object instance)
+        {
+            var that = (global::UwpCustomCursesLibrary.Models.UserCoursesPoints)instance;
+            return that.Points;
+        }
+        private void set_13_UserCoursesPoints_Points(object instance, object Value)
+        {
+            var that = (global::UwpCustomCursesLibrary.Models.UserCoursesPoints)instance;
+            that.Points = (global::System.Int32)Value;
+        }
+        private object get_14_MainViewModel_LoginCommand(object instance)
         {
             var that = (global::UwpCustomCourses.ViewModel.MainViewModel)instance;
             return that.LoginCommand;
         }
-        private object get_12_MainViewModel_RegistrationCommand(object instance)
+        private object get_15_MainViewModel_RegistrationCommand(object instance)
         {
             var that = (global::UwpCustomCourses.ViewModel.MainViewModel)instance;
             return that.RegistrationCommand;
         }
-        private object get_13_MainViewModel_BackToMainPageCommand(object instance)
+        private object get_16_MainViewModel_BackToMainPageCommand(object instance)
         {
             var that = (global::UwpCustomCourses.ViewModel.MainViewModel)instance;
             return that.BackToMainPageCommand;
         }
-        private object get_14_ViewModelBase_IsInDesignMode(object instance)
+        private object get_17_ViewModelBase_IsInDesignMode(object instance)
         {
             var that = (global::GalaSoft.MvvmLight.ViewModelBase)instance;
             return that.IsInDesignMode;
@@ -681,28 +750,46 @@ namespace UwpCustomCourses.UwpCustomCourses_XamlTypeInfo
                 xamlMember.Getter = get_10_MainViewModel_AuthorisedUser;
                 xamlMember.Setter = set_10_MainViewModel_AuthorisedUser;
                 break;
+            case "UwpCustomCourses.ViewModel.MainViewModel.SubscribeCourses":
+                userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpCustomCourses.ViewModel.MainViewModel");
+                xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "SubscribeCourses", "System.Collections.Generic.List`1<UwpCustomCursesLibrary.Models.UserCoursesPoints>");
+                xamlMember.Getter = get_11_MainViewModel_SubscribeCourses;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "UwpCustomCursesLibrary.Models.UserCoursesPoints.CourseName":
+                userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpCustomCursesLibrary.Models.UserCoursesPoints");
+                xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "CourseName", "String");
+                xamlMember.Getter = get_12_UserCoursesPoints_CourseName;
+                xamlMember.Setter = set_12_UserCoursesPoints_CourseName;
+                break;
+            case "UwpCustomCursesLibrary.Models.UserCoursesPoints.Points":
+                userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpCustomCursesLibrary.Models.UserCoursesPoints");
+                xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "Points", "Int32");
+                xamlMember.Getter = get_13_UserCoursesPoints_Points;
+                xamlMember.Setter = set_13_UserCoursesPoints_Points;
+                break;
             case "UwpCustomCourses.ViewModel.MainViewModel.LoginCommand":
                 userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpCustomCourses.ViewModel.MainViewModel");
                 xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "LoginCommand", "GalaSoft.MvvmLight.Command.RelayCommand");
-                xamlMember.Getter = get_11_MainViewModel_LoginCommand;
+                xamlMember.Getter = get_14_MainViewModel_LoginCommand;
                 xamlMember.SetIsReadOnly();
                 break;
             case "UwpCustomCourses.ViewModel.MainViewModel.RegistrationCommand":
                 userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpCustomCourses.ViewModel.MainViewModel");
                 xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "RegistrationCommand", "GalaSoft.MvvmLight.Command.RelayCommand");
-                xamlMember.Getter = get_12_MainViewModel_RegistrationCommand;
+                xamlMember.Getter = get_15_MainViewModel_RegistrationCommand;
                 xamlMember.SetIsReadOnly();
                 break;
             case "UwpCustomCourses.ViewModel.MainViewModel.BackToMainPageCommand":
                 userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("UwpCustomCourses.ViewModel.MainViewModel");
                 xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "BackToMainPageCommand", "GalaSoft.MvvmLight.Command.RelayCommand");
-                xamlMember.Getter = get_13_MainViewModel_BackToMainPageCommand;
+                xamlMember.Getter = get_16_MainViewModel_BackToMainPageCommand;
                 xamlMember.SetIsReadOnly();
                 break;
             case "GalaSoft.MvvmLight.ViewModelBase.IsInDesignMode":
                 userType = (global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlUserType)GetXamlTypeByName("GalaSoft.MvvmLight.ViewModelBase");
                 xamlMember = new global::UwpCustomCourses.UwpCustomCourses_XamlTypeInfo.XamlMember(this, "IsInDesignMode", "Boolean");
-                xamlMember.Getter = get_14_ViewModelBase_IsInDesignMode;
+                xamlMember.Getter = get_17_ViewModelBase_IsInDesignMode;
                 xamlMember.SetIsReadOnly();
                 break;
             }

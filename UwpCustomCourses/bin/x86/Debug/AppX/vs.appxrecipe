@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-11T19:26:30.128</Modified>
+      <Modified>2018-12-15T14:20:23.712</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.exe">
       <PackagePath>entrypoint\UwpCustomCourses.exe</PackagePath>
-      <Modified>2018-12-11T19:26:29.194</Modified>
+      <Modified>2018-12-15T14:20:22.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rankle\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -64,7 +64,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.dll">
       <PackagePath>UwpCustomCursesLibrary.dll</PackagePath>
-      <Modified>2018-12-11T18:00:47.717</Modified>
+      <Modified>2018-12-15T14:12:39.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.2\ref\uap10.0.15138\System.Net.ServicePoint.dll">
+      <PackagePath>System.Net.ServicePoint.dll</PackagePath>
+      <Modified>2018-10-31T09:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.2\ref\uap10.0.15138\System.Net.Security.dll">
+      <PackagePath>System.Net.Security.dll</PackagePath>
+      <Modified>2018-10-31T09:02:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -106,31 +114,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\UwpCustomCourses.xr.xml">
       <PackagePath>UwpCustomCourses.xr.xml</PackagePath>
-      <Modified>2018-12-11T19:25:18.393</Modified>
+      <Modified>2018-12-15T14:20:22.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-11T19:26:29.015</Modified>
+      <Modified>2018-12-15T14:20:22.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-11T19:26:29.015</Modified>
+      <Modified>2018-12-15T14:20:22.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\LoggedNVPage.xbf">
+      <PackagePath>View\LoggedNVPage.xbf</PackagePath>
+      <Modified>2018-12-15T14:20:22.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\LoginNVPage.xbf">
       <PackagePath>View\LoginNVPage.xbf</PackagePath>
-      <Modified>2018-12-11T19:26:29.015</Modified>
+      <Modified>2018-12-15T14:20:22.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\MainNVPage.xbf">
       <PackagePath>View\MainNVPage.xbf</PackagePath>
-      <Modified>2018-12-11T19:26:29.015</Modified>
+      <Modified>2018-12-15T14:20:22.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\RegistrationNVPage.xbf">
       <PackagePath>View\RegistrationNVPage.xbf</PackagePath>
-      <Modified>2018-12-11T19:26:29.015</Modified>
+      <Modified>2018-12-15T14:20:22.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\View\SelectedCoursesNVPage.xbf">
       <PackagePath>View\SelectedCoursesNVPage.xbf</PackagePath>
-      <Modified>2018-12-11T19:26:29.015</Modified>
+      <Modified>2018-12-15T14:20:22.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -138,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-12-11T19:25:19.804</Modified>
+      <Modified>2018-12-15T14:17:39.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Repository\CustomCourses\UwpCustomCourses\bin\x86\Debug\Core\UwpCustomCourses.exe">
       <PackagePath>UwpCustomCourses.exe</PackagePath>
-      <Modified>2018-12-11T19:26:30.124</Modified>
+      <Modified>2018-12-15T14:20:23.708</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

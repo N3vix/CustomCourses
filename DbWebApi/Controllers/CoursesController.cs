@@ -18,26 +18,31 @@ namespace DbWebApi.Controllers
         public CoursesController(CoursesContext context)
         {
             _coursesContext = context;
-
             if (_coursesContext.Courses.Any()) return;
             _coursesContext.Courses.AddRange(
                 new Course
                 {
                     Name = "Introduction and learning HTML,CSS",
                     Description = $"Why Learn HTML?{Environment.NewLine}HTML is the foundation of all web pages. Without HTML, you wouldn't be able to organize text or add images or videos to your web pages. HTML is the beginning of everything you need to know to create engaging web pages!{Environment.NewLine}{Environment.NewLine}Take-Away Skills{Environment.NewLine}You will learn all the common HTML tags used to structure HTML pages, the skeleton of all websites. You will also be able to create HTML tables to present tabular data efficiently.",
-                    StartTime = DateTime.Now
+                    StartTime = DateTime.Now,
+                    SubscribedUsers = "N3vix",
+                    UsersPoints = "N3vix,50"
                 },
                 new Course
                 {
                     Name = "Learn Python 3",
                     Description = $"Why Learn Python?{Environment.NewLine}Python is a general-purpose, versatile and popular programming language. It's great as a first language because it is concise and easy to read, and it is also a good language to have in any programmer's stack as it can be used for everything from web development to software development and data science applications.{Environment.NewLine}{Environment.NewLine}Take-Away Skills{Environment.NewLine}This course is a great introduction to both fundamental programming concepts and the Python programming language. Python 3 is the most up-to-date version of the language with many improvements made to increase the efficiency and simplicity of the code that you write.",
-                    StartTime = DateTime.Now
+                    StartTime = DateTime.Now,
+                    SubscribedUsers = "N3vix",
+                    UsersPoints = "N3vix,50"
                 },
                 new Course
                 {
                     Name = "Introduction and learning JavaScript",
                     Description = $"Why Learn Python?{Environment.NewLine}JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.{Environment.NewLine}{Environment.NewLine}Take-Away Skills:{Environment.NewLine}You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment.",
-                    StartTime = DateTime.Now
+                    StartTime = DateTime.Now,
+                    SubscribedUsers = "N3vix",
+                    UsersPoints = "N3vix,50"
                 },
                 new Course
                 {

@@ -27,8 +27,18 @@ namespace DbWebApi.Controllers
         {
             _usersContext = context;
 
+            PasswordHashHelpers.CreatePasswordHash("123", out byte[] hash, out var salt);
             if (_usersContext.Users.Any()) return;
-            _usersContext.Users.Add(new User { Username = "N3vix" });
+            _usersContext.Users.Add(new User
+            {
+                Username = "N3vix" ,
+                PasswordHash = hash,
+                PasswordSalt = salt,
+                FirstName = "Oleksandr",
+                SecondName = "Vasylyk",
+                Role = Roles.Admin,
+                SubscribeCourses = "Introduction and learning HTML,CSS#Learn Python 3#Introduction and learning JavaScript"
+            });
             _usersContext.SaveChanges();
         }
 

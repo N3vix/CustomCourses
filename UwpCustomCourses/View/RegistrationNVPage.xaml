@@ -12,7 +12,7 @@
         <ContentControl VerticalAlignment="Center" HorizontalAlignment="Center">
             <StackPanel Orientation="Vertical" Width="300">
                 <TextBlock Text="Login" Margin="4,4,0,0"/>
-                <TextBox Text="{Binding NickName, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="4"/>
+                <TextBox Text="{Binding Username, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="4"/>
                 <TextBlock Text="First Name" Margin="4,4,0,0"/>
                 <TextBox Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="4"/>
                 <TextBlock Text="Second Name" Margin="4,4,0,0"/>

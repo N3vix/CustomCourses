@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8q+CqRQ/QRgnjgrqieYW9IckQVjsU8UkBj7Sq5SEJVs=</dsig:DigestValue>
+        <dsig:DigestValue>TUp6LPbzXJnj8LypNt3d/vdw1/pnVcozk13XqTWZwsY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CustomCursesLibrary.dll" size="14336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CustomCursesLibrary.dll" size="15872">
       <assemblyIdentity name="CustomCursesLibrary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nwLuDu834YE8QVXm+Pc1Eq59CADsFZwZNKvrz1XwRYg=</dsig:DigestValue>
+        <dsig:DigestValue>Cd+XU7IPb/Umy1xcUnV/B/RKCRBqBt1mdg55vrhPhYI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

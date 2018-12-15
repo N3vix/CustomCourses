@@ -36,3 +36,41 @@ D:\dekstop\Diploma\DB Web Api\DbWebApi\CustomCurses\obj\Debug\CustomCurses.pdb
 D:\dekstop\Diploma\DB Web Api\DbWebApi\CustomCurses\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
 D:\dekstop\Diploma\DB Web Api\DbWebApi\CustomCurses\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
 D:\dekstop\Diploma\DB Web Api\DbWebApi\CustomCurses\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCurses.exe.config
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCurses.exe.manifest
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCurses.application
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCurses.exe
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCurses.pdb
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCursesLibrary.dll
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\GalaSoft.MvvmLight.dll
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\System.Windows.Forms.dll
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\System.Windows.Interactivity.dll
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\CustomCursesLibrary.pdb
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\GalaSoft.MvvmLight.xml
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\System.Windows.Forms.xml
+D:\GitHub Repository\CustomCourses\CustomCurses\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.csprojAssemblyReference.cache
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\MainWindow.g.cs
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\View\LoginDialog.g.cs
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\App.g.cs
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses_MarkupCompile.cache
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses_MarkupCompile.lref
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\App.baml
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\MainWindow.baml
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\View\LoginDialog.baml
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.g.resources
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.Properties.Resources.resources
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.csproj.GenerateResource.cache
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.TrustInfo.xml
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.exe.manifest
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.application
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.csproj.CopyComplete
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.exe
+D:\GitHub Repository\CustomCourses\CustomCurses\obj\Debug\CustomCurses.pdb

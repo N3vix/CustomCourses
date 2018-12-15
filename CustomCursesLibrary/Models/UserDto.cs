@@ -1,4 +1,6 @@
-﻿namespace CustomCursesLibrary.Models
+﻿using System.Collections.Generic;
+
+namespace CustomCursesLibrary.Models
 {
     public class UserDto
     {

@@ -23,7 +23,6 @@ D:\dekstop\Diploma\DB Web Api\DbWebApi\UwpCustomCursesLibrary\obj\Debug\UwpCusto
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.dll
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.pdb
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\UwpCustomCursesLibrary.pri
-D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\UwpCustomCursesLibrary.csprojAssemblyReference.cache
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\UwpCustomCursesLibrary.csproj.CoreCompileInputs.cache
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\UwpCustomCursesLibrary.dll
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\UwpCustomCursesLibrary.pdb
@@ -42,3 +41,8 @@ D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\pri.resfiles
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\qualifiers.txt
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\qualifiers.txt.intermediate
 D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\System.Net.ServicePoint.dll
+D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\System.Net.Security.dll
+D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\System.Net.ServicePoint.xml
+D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\bin\Debug\System.Net.Security.xml
+D:\GitHub Repository\CustomCourses\UwpCustomCursesLibrary\obj\Debug\UwpCustomCursesLibrary.csproj.CopyComplete

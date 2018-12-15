@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace UwpCustomCursesLibrary.Models
 {
@@ -10,6 +11,7 @@ namespace UwpCustomCursesLibrary.Models
         public string Description { get; set; }
         public string Lector { get; set; }
         public int MaximumSubs { get; set; }
-        public User[] SubscribedUsers { get; set; }
+        public string UsersPoints { get; set; }
+        public string SubscribedUsers { get; set; }
     }
 }
